@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HDKEY destek / Support</title>
+<meta name="description" content="HDKEY klavyesini etkinleştirme, Tam Erişim ve destek iletişimi.">
+<meta name="author" content="hamdilsiz">
+<style>
+:root {
+  --bg: #212121;
+  --panel: #2c2c2c;
+  --text: #f3f3f3;
+  --muted: #b9b9b9;
+  --bordo: #9b2b3a;
+  --blue: #4a90c2;
+  --line: #3a3a3a;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+.wrap { max-width: 42rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
+header {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: 1.15rem;
+  color: #fff;
+  text-decoration: none;
+}
+.brand span { color: var(--blue); }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.9rem;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+nav a:hover, nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--bordo); }
+.langs a {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+}
+.langs a:hover { color: #fff; border-color: var(--blue); }
+article {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.1rem 1.15rem 1.4rem;
+  margin: 1rem 0 1.4rem;
+}
+h1 { font-size: 1.45rem; line-height: 1.25; margin: 0 0 0.7rem; }
+h2 { font-size: 1.08rem; margin: 1.25rem 0 0.45rem; color: #fff; }
+p, li { color: var(--text); }
+.meta { color: var(--muted); margin: 0.2rem 0; }
+.lead { color: var(--muted); }
+a { color: var(--blue); }
+ol, ul { padding-left: 1.2rem; }
+footer { color: var(--muted); font-size: 0.85rem; margin-top: 1.5rem; }
+#en { display: none; }
+#tr { display: block; }
+body:has(#en:target) #en { display: block; }
+body:has(#en:target) #tr { display: none; }
+body:has(#tr:target) #tr { display: block; }
+body:has(#tr:target) #en { display: none; }
+@media (max-width: 640px) {
+  .wrap { padding: 1rem 0.85rem 2.5rem; }
+  article { padding: 0.95rem 0.9rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="../">HD<span>KEY</span></a>
+<nav>
+<a href="../">HDKEY</a>
+<a href="../privacy/">Gizlilik / Privacy</a>
+<a href="../support/" aria-current="page">Destek / Support</a>
+<span class="langs">
+<a href="#tr" lang="tr" hreflang="tr">Türkçe</a>
+<a href="#en" lang="en" hreflang="en">English</a>
+</span>
+</nav>
+</header>
+
+<article id="tr" lang="tr">
+<h1>HDKEY destek</h1>
+<p>HDKEY, iPhone’da diğer uygulamalardaki yazı alanlarında çalışan bir üçüncü taraf klavyedir. Ana uygulama tercihleri, fotoğrafları ve pano kayıtlarını yönetir.</p>
+<h2>Klavyeyi etkinleştirme</h2>
+<ol>
+<li>HDKEY uygulamasını açın.</li>
+<li>iPhone Ayarları → Genel → Klavye → Klavyeler → Yeni Klavye Ekle yolunu izleyin.</li>
+<li>Listeden HDKEY’yi ekleyin.</li>
+<li>İsterseniz Klavyeler listesinde HDKEY’ye dokunup Tam Erişime İzin Ver seçeneğini açın. Bu adım zorunlu değildir.</li>
+<li>Klavyeler → Düzenle ile HDKEY’yi listenin en üstüne taşıyabilirsiniz. Bu, iOS’un çoğu yazı alanında HDKEY’yi ilk sırada önermesine yardımcı olur; kilitleme değildir.</li>
+</ol>
+<h2>Klavyeler arasında geçiş</h2>
+<p>Bir yazı alanına dokunun. iOS, klavyeler arasında geçiş için küre tuşunu gösterir. HDKEY görünene kadar dokunun veya küre tuşunu basılı tutarak iOS klavye listesini açın.</p>
+<h2>Tam Erişim</h2>
+<p>Temel yazma, tahmin ve kaydırarak yazma Tam Erişim olmadan da çalışır. Sistem panosundaki metni klavyeden okumak için Tam Erişim gerekir. Ortak fotoğraf alanı ve tuş sesi gibi özellikler de iOS izin ve kısıtlarına bağlıdır.</p>
+<h2>Klavye görünmüyorsa</h2>
+<ul>
+<li>Ayarlar → Genel → Klavye → Klavyeler listesinde HDKEY’nin eklendiğini kontrol edin.</li>
+<li>Yazı alanında küre tuşuyla HDKEY’yi seçin.</li>
+<li>Tercihler uygulanmıyorsa klavyeyi kapatıp yeniden açın.</li>
+<li>Pano boşsa Tam Erişim’in açık olduğunu kontrol edin.</li>
+<li>Klavye birden kaybolursa iOS uzantıyı bellek nedeniyle sonlandırmış olabilir; küre tuşuyla HDKEY’yi yeniden seçin.</li>
+</ul>
+<h2>Öğrenme ve geçmiş</h2>
+<p>Ana uygulama → Tercihler → Gizlilik ve geçmiş bölümünden kelime öğrenmeyi kapatabilir ve öğrenilen geçmişi temizleyebilirsiniz. Öğrenmeyi kapatmak önceki kayıtları otomatik silmez. Kişisel sözlük ve metin kısayolları kendi bölümlerinden yönetilir.</p>
+<h2>İletişim</h2>
+<p>Destek: <a href="mailto:hamdidilsiz@hotmail.com">hamdidilsiz@hotmail.com</a></p>
+<p>Gizlilik politikası uygulamanın içinde Tercihler → Gizlilik ve geçmiş → Gizlilik politikası yolundadır. Planlanan genel adres: <a href="https://hamdilsiz.github.io/hdkey-support/privacy/">https://hamdilsiz.github.io/hdkey-support/privacy/</a></p>
+</article>
+<article id="en" lang="en">
+<h1>HDKEY support</h1>
+<p>HDKEY is a third-party iPhone keyboard that appears in text fields in other apps. The host app manages preferences, photos and clipboard items.</p>
+<h2>Enable the keyboard</h2>
+<ol>
+<li>Open the HDKEY app.</li>
+<li>Go to iPhone Settings → General → Keyboard → Keyboards → Add New Keyboard.</li>
+<li>Add HDKEY.</li>
+<li>Optionally tap HDKEY in the keyboard list and enable Allow Full Access. This step is not required for basic typing.</li>
+<li>You can move HDKEY to the top of the list with Keyboards → Edit. That helps iOS offer HDKEY first in many fields; it is not a lock.</li>
+</ol>
+<h2>Switch keyboards</h2>
+<p>Tap a text field. iOS shows a globe key for switching keyboards. Tap until HDKEY appears, or touch and hold the globe key to open the iOS keyboard list.</p>
+<h2>Full Access</h2>
+<p>Basic typing, predictions and glide typing work without Full Access. Reading system clipboard text from the keyboard requires Full Access. Shared photo storage and key sounds also depend on iOS permissions and restrictions.</p>
+<h2>If the keyboard is missing</h2>
+<ul>
+<li>Confirm HDKEY is added under Settings → General → Keyboard → Keyboards.</li>
+<li>Select HDKEY with the globe key in a text field.</li>
+<li>If preferences do not appear, close and reopen the keyboard.</li>
+<li>If the clipboard is empty, check that Full Access is on.</li>
+<li>If the keyboard disappears suddenly, iOS may have ended the extension under memory pressure; select HDKEY again with the globe key.</li>
+</ul>
+<h2>Learning and history</h2>
+<p>In the host app, go to Preferences → Privacy and history to turn off word learning and to clear learned history. Turning learning off does not delete existing records automatically. Personal dictionary entries and text shortcuts are managed in their own sections.</p>
+<h2>Contact</h2>
+<p>Support: <a href="mailto:hamdidilsiz@hotmail.com">hamdidilsiz@hotmail.com</a></p>
+<p>The privacy policy is in the app at Preferences → Privacy and history → Privacy policy. The planned public address is <a href="https://hamdilsiz.github.io/hdkey-support/privacy/">https://hamdilsiz.github.io/hdkey-support/privacy/</a></p>
+</article>
+<footer>
+<p>HDKEY · hamdilsiz · hamdidilsiz@hotmail.com</p>
+</footer>
+</div>
+</body>
+</html>
